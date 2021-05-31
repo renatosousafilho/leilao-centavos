@@ -1,0 +1,24 @@
+{
+  "name": "paredao-bb-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.0",
+    "jest": "26.6.0",
+    "jest-puppeteer": "4.4.0",
+    "puppeteer": "5.3.1"
+  },
+  "scripts": {
+    "test": "jest --runInBand  --detectOpenHandles --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
